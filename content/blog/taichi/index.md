@@ -1,7 +1,7 @@
 ---
-title: Tai Chi (Tai Ji) & Qi-Gong (not mine 😅)
+title: Now It's About Taxonomies
 date: "2021-09-06T12:51:51.217Z"
-description: These videos can help your body heal & grow much, much stronger
+description: Taxa, schemata, indicies???
 ---
 
 # Leia Cohen's Taiflow, Tai Chi for Beginners
