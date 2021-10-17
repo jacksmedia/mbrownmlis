@@ -1,8 +1,17 @@
 ---
-title: Now It's About Taxonomies
+title: Something About Taxonomies
 date: "2021-09-06T12:51:51.217Z"
 description: Taxa, schemata, indicies???
 ---
+# headline1
+## headline2
+### headline3
+#### headline4
+##### headline5
+###### headline6
+
+[A useful URL](https://www.google.com/url?q=https://web.archive.org/web/20141219125956/http://embrowninfoscientist.com/home/Home.shtml&sa=D&source=hangouts&ust=1634528176714000&usg=AOvVaw39_dLOfy60muWFWVgmT--U)
+
 
 # Leia Cohen's Taiflow, Tai Chi for Beginners
 - [Module ⓵ ](https://www.youtube.com/watch?v=cEOS2zoyQw4)
