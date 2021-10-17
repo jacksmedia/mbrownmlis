@@ -1,7 +1,7 @@
 ---
-title: Jacks Consulting LLC 💰🧐
+title: M Brown has an MLIS
 date: "2021-09-11T08:46:40.007Z"
-description: Did you ever believe that ✨freelance banking✨ would be a thing?
+description: I like to design vocabularies and optimize user flows
 ---
 > Nothing Below is Financial Advice
 
