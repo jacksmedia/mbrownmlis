@@ -1,0 +1,357 @@
+@import 'bulma/css/bulma.css';
+/* 
+             /\                    /\        /\
+            /__\      /\_____/\   /__\      /__\
+            |* |=_=_=_|.J. .M.|_=_=_=_=_=_=_| *|
+            | .| . * .|  ___  |. * . * . * .|. |
+            |. |      | |{ }| |             | .|
+          __|__|______|_|{_}|_|_____________|__|__
+         /    /     /   /             \        \
+all original stuff herein MIT© https://jacks.media  K E E P  B U I L D I N G
+
+__==-- Stylesheet Line Index T.o.C. --==__
+branding: 20 - 30
+generic typography stuff: 33 - 110 
+components: ~120
+animations: ~200
+*/
+
+/* jacks branding stuff */
+$jacks-red: #EAE8B4;
+$jacks-blue: #082C2A;
+$jacks-green: #273824; // Dark Angels Mk VII
+$jacks-red-invert: #fff;
+$primary: $jacks-red;
+$primary-invert: $jacks-red-invert;
+$black: #242;
+
+
+
+/* typical Gatsby layout  */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: var(--lineHeight-normal);
+  font-size: var(--fontSize-root);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: var(--fontSize-1);
+  color: $black;
+  background: linear-gradient(180deg, #EAE8B4, #082C2A);
+}
+
+hr {
+  background: var(--color-accent);
+  height: 1px;
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  margin-top: 2vh;
+  margin-bottom: var(--spacing-6);
+  line-height: var(--lineHeight-tight);
+  letter-spacing: -0.025em;
+  word-wrap: break-word;
+}
+
+h2, h3, h4, h5, h6 {
+  font-weight: var(--fontWeight-bold);
+  color: var(--color-heading);
+}
+
+h1 {
+  font-weight: var(--fontWeight-black);
+  font-size: var(--fontSize-7);
+  color: var(--color-heading-black);
+}
+
+h2 { font-size: var(--fontSize-5); }
+h3 { font-size: var(--fontSize-4); }
+h4 { font-size: var(--fontSize-3); }
+h5 { font-size: var(--fontSize-2); }
+h6 { font-size: var(--fontSize-1); }
+
+p {
+  line-height: var(--lineHeight-relaxed);
+  --baseline-multiplier: 0.179;
+  --x-height-multiplier: 0.35;
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  padding: var(--spacing-2);
+}
+
+blockquote {
+  color: var(--color-text-light);
+  margin-left: calc(-1 * var(--spacing-6));
+  margin-right: var(--spacing-8);
+  margin-bottom: var(--spacing-8);
+  padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
+  border-left: var(--spacing-1) solid var(--color-primary);
+  font-size: var(--fontSize-2);
+  font-style: italic;
+}
+
+blockquote {
+  margin: 2rem;
+}
+
+blockquote > ul,
+blockquote > ol {
+  list-style-position: inside;
+}
+
+table {
+  width: 100%;
+  margin-bottom: var(--spacing-8);
+  border-collapse: collapse;
+  border-spacing: 0.25rem;
+}
+
+figure {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding-bottom: 1.5rem;
+  margin-bottom: 3.5rem;
+}
+
+/* It Begins To Customise Its Code */
+
+.center {
+  display: flex;
+  flex-direction: column wrap;
+}
+
+.mains {
+  padding: 0rem 0.5rem 20rem 0rem;
+}
+.post-list-item {
+  line-height: 2rem;
+  min-height: 70vh;
+}
+
+.svg-hexes-snowfall {
+  background: linear-gradient(to bottom right, rgba(255,255,255,1.0),rgba(255,255,255,0.2));
+  z-index: 30;
+}
+.svg-hexes {
+  z-index: 20;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23fffafa' fill-opacity='0.26' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.blog-post {
+  background: snow;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.blog-post header {
+  margin-bottom: 2rem;
+}
+.blog-post header {
+  font-size: 2.3rem;
+  padding: 0.5vh;
+}
+
+.post-lede {
+  font-size: 1.1rem;
+  padding-right: 1.3rem;
+  padding-top: 1.3rem;
+}
+
+ul, ol {
+  list-style-position: inside;
+  padding-left: 4rem;
+}
+@media (max-width: 42rem) {
+  blockquote {
+    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
+    margin-left: var(--spacing-0);
+  }
+  ul, ol {
+    list-style-position: inside;
+    padding-left: 2rem;
+  }
+}
+
+.post-headline {
+  padding-top: 4rem;
+  padding-bottom: 7rem;
+}
+
+
+.footsie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 30vh;
+  padding: 4rem;
+  background: rgb(8,44,42);
+  background: linear-gradient(180deg, rgba(8,44,42,1) 19%, rgba(188,184,202,1) 44%, rgba(234,232,180,1) 72%, rgba(234,133,56,1) 100%);
+}
+
+.bottommost-text {
+  color: white;
+}
+
+.engraved {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: row nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.engraved > h* {
+  padding-left: 40px;  
+}
+
+.bio-tile {
+  padding: 1.45rem;
+}
+
+.bio-avatar {
+  margin-right: var(--spacing-4);
+  margin-bottom: var(--spacing-0);
+  min-width: 50px;
+  border-radius: 100%;
+}
+
+.landingpage-blogtitle {
+  font-size: 6vw;
+  line-height: 120%;
+}
+
+.glowy-text {
+  text-shadow: 2px 0px 2px $jacks-blue, 0px 2px 2px $jacks-blue;
+}
+
+
+/* animations code */
+@keyframes fun-summertime-palette-btn {
+  from {
+    background-color: $jacks-blue; 
+    color: white; 
+  }
+  to {
+    background-color: navy;
+    color: tomato; 
+  }
+}
+@keyframes fun-summertime-palette-text {
+  0% {
+    color: navy; 
+  }
+  20% {
+    color: tomato; 
+  }
+  40% {
+    color: red; 
+  }
+  60% {
+    color: fuchsia; 
+  }
+  80% {
+    color: blue; 
+  }
+}
+
+@keyframes veggie-creamsicle-palette-text {
+  0% {
+    color: white; 
+  }
+  50% {
+    color: tomato; 
+  }
+  100% {
+    color: white; 
+  }
+}
+
+/* animated button bg colors */
+.btn {
+  border: none;
+  color: black;
+  padding: 1.3vw 1.5vh;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-size: 2.9vw;
+  border-radius: 2vw;
+  margin: 4px 2px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  animation: fun-summertime-palette-btn 6s ease 0.35s infinite alternate;
+}
+
+.btn, .navbar-item, p {
+  font-family: 'Roboto Slab', san-serif;
+}
+
+.cinzel {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: inherit;
+}
+
+.creamsicle-text {
+  animation: veggie-creamsicle-palette-text 4s ease 0.25s infinite alternate;
+}
+
+
+
+
+/* table UI fixes for MD */
+table {
+  max-width: 60vw;
+  margin-bottom: 30px;
+}
+td {
+  max-width: 30;
+  padding: 2px 10px 4px 10px;
+  background-color: rgba(100,100,100,0.2);
+}
+th {
+  padding: 0px 0px 0px 10px;
+  background-color: rgba(100,100,100,0.4);
+}
+
+
+
+/* Links + hamburger w chromatic sauce */
+
+a {
+  animation: fun-summertime-palette-text 4s ease 0.95s infinite;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+
+/* for callouts and special copy  */
+.floatybox {
+  max-width: 89vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: snow;
+  border-radius: 1vw;
+  padding: 1.6rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.fade {
+  animation: fade-out-keyframes 1s;
+}
+@keyframes fade-out-keyframes {
+  from {opacity: 1}
+  to {opacity: 0}
+}
