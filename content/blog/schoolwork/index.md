@@ -1,5 +1,5 @@
 ---
-title: Something About Taxonomies
+title: Schoolwork from MLIS
 date: "2021-09-06T12:51:51.217Z"
 description: Taxa, schemata, indicies???
 ---
