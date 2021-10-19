@@ -9,9 +9,9 @@ const Footblur = () => {
   return(
     <div className="footer-img" alt="bookshelf picture copyright M Brown, 2013">
       <div className="floatybox">
-        <p>M Brown, Masters in Library and Information Science</p>
-        <p>Coded and designed by <a href="https://jacks.media">Jacks Media</a>
-        {`, `}{new Date().getFullYear()}</p>
+        <span>M Brown, Masters in Library and Information Science</span>
+        <span>Coded and designed by <a href="https://jacks.media">Jacks Media</a>
+        {`, `}{new Date().getFullYear()}</span>
       </div>
     </div>
   )
