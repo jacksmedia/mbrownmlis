@@ -57,7 +57,7 @@ const BlogIndex = ({ data, location }) => {
                      />
                     <header>
                       <h1 className="landingpage-blogtitle glowy-text">
-                        <AniLink paintDrip to={post.fields.slug} itemProp="url">
+                        <AniLink paintDrip hex="#082C2A" to={post.fields.slug} itemProp="url">
                           <span itemProp="headline">{title}</span>
                         </AniLink>
                       </h1>

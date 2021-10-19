@@ -15,11 +15,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Jacks Consulting LLC`,
-        short_name: `J4cks.com`,
+        name: `M Brown MLIS`,
+        short_name: `MBrownMLIS.com`,
         start_url: `/`,
-        background_color: `#0005FF`,
-        theme_color: `#DD3C00`,
+        background_color: `#082C2A`,
+        theme_color: `#EAE8B4`,
         display: `standalone`,
         icon: `src/images/gatsby-icon.png`,
         crossOrigin: `use-credentials`,
@@ -125,9 +125,9 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-gatsby-cloud`,
+    // `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
   ],
 }

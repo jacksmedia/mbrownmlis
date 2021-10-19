@@ -1,9 +1,5 @@
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import booksy from "../images/header.png"
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-
 
 const Footblur = () => {
   return(
