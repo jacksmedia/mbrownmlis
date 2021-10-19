@@ -195,6 +195,20 @@ ul, ol {
   background: linear-gradient(180deg, rgba(8,44,42,1) 19%, rgba(188,184,202,1) 44%, rgba(234,232,180,1) 72%, rgba(234,133,56,1) 100%);
 }
 
+.footer-img {
+  width: 100vw;
+  height: 30vh;
+  background: url(images/books_notext.png) center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .bottommost-text {
   color: white;
 }
