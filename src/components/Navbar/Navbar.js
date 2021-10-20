@@ -6,15 +6,15 @@ import Logowrap from "./Logowrap"
 const TopBar = styled.nav`
   min-height: 72px;
   height: 10vh;
-  display: flex;
-  background: linear-gradient(to top, #EAE8B4, #082C2A);
   position: relative;
+  background: linear-gradient(to top, #EAE8B4, #CC8033);
+  display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
   border-bottom: 2px solid #33333320;
   margin: 0 auto;
-  padding: 0 5vw;
+  padding: 0 2vw;
   z-index: 2;
   align-self: center;
 
@@ -93,8 +93,8 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
 
   return (
-    <TopBar>
-      <Logowrap />
+    <TopBar className="header-img" alt="bookshelf picture copyright M Brown, 2013">
+      <h1 className="especial-title">M Brown MLIS</h1>
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

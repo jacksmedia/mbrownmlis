@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Jacks Consulting LLC`,
+    title: `M Brown MLIS`,
     author: {
-      name: `J4cks`,
-      summary: `a human crypto-currency enthusiast just like you. `,
+      name: `M Brown`,
+      summary: `data librarian, metadata enthusiast`,
     },
-    description: `Guide to getting started with cryptocurrency.`,
-    siteUrl: `https://j4cks.com/`,
+    description: `Guide to getting to know M Brown, MLIS.`,
+    siteUrl: `https://mbrownmlis.com/`,
     social: {
       twitter: `__j4cks__`,
     },
