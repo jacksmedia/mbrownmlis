@@ -1,13 +1,16 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
-import Logowrap from "./Logowrap"
 
 const TopBar = styled.nav`
   min-height: 72px;
   height: 10vh;
   position: relative;
-  background: linear-gradient(to top, #EAE8B4, #CC8033);
+  background: url(books_notext.png) center center fixed; 
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,6 +40,14 @@ const Toggle = styled.div`
   @media (max-width: 768px) {
     display: flex;
   }
+`
+
+const NavTitle = styled.h1`
+  color: snow;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  font-size: 22px;
+  white-space: nowrap;
 `
 
 const Navtray = styled.div`
@@ -94,7 +105,7 @@ const Navbar = () => {
 
   return (
     <TopBar className="header-img" alt="bookshelf picture copyright M Brown, 2013">
-      <h1 className="especial-title">M Brown MLIS</h1>
+      <NavTitle>M Brown MLIS</NavTitle>
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
