@@ -1,10 +1,11 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
+import { Link } from "gatsby"
 
 const TopBar = styled.nav`
   min-height: 72px;
-  height: 10vh;
+  height: 12vh;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -12,7 +13,7 @@ const TopBar = styled.nav`
   text-transform: uppercase;
   border-bottom: 2px solid #33333320;
   margin: 0 auto;
-  padding: 0 2vw;
+  padding: 0 0 0 0;
   z-index: 2;
   align-self: center;
 
@@ -37,12 +38,15 @@ const Toggle = styled.div`
   }
 `
 
-const NavTitle = styled.h1`
+const NavTitle = styled(Link)`
+  font-family: "Cinzel Decorative";
+  text-decoration: none;
+  font-size: 22px;
   color: snow;
+  display: inline-block;
+  white-space: nowrap;
   padding-right: 3rem;
   padding-left: 3rem;
-  font-size: 22px;
-  white-space: nowrap;
 `
 
 const Navtray = styled.div`
@@ -54,13 +58,13 @@ const Navtray = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     position: fixed;
-    width: 100%;
+    width: 50%;
     justify-content: flex-start;
     padding-top: 72px;
     background-color: #082C2A;
     transition: all 0.3s ease-in;
     top: 72px;
-    left: ${props => (props.open ? "-100%" : "0")};
+    right: ${props => (props.open ? "-100%" : "0")};
   }
 `
 
@@ -100,7 +104,7 @@ const Navbar = () => {
 
   return (
     <TopBar className="header-img" alt="bookshelf picture copyright M Brown, 2013">
-      <NavTitle>M Brown MLIS</NavTitle>
+      <NavTitle to="/" className="is-hoverable">M Brown MLIS</NavTitle>
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

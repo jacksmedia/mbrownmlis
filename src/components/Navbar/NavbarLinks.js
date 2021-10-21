@@ -5,25 +5,25 @@ import { Link } from "gatsby"
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/" className="is-hoverable creamsicle-text">Home</NavItem>
-      <NavItem to="/aboutme" className="is-hoverable creamsicle-text">About Me</NavItem>
-      <NavItem to="/digitalservices" className="is-hoverable creamsicle-text">Digital Services</NavItem>
-      <NavItem to="/metadata" className="is-hoverable creamsicle-text">Metadata</NavItem>
-      <NavItem to="/links" className="is-hoverable creamsicle-text">Links</NavItem>
-      <NavItem to="/resources" className="is-hoverable creamsicle-text">Resources</NavItem>
-      <NavItem to="/schoolwork" className="is-hoverable creamsicle-text">Schoolwork</NavItem>
+      <NavItem to="/aboutme" className="is-hoverable">About Me</NavItem>
+      <NavItem to="/digitalservices" className="is-hoverable">Digital Services</NavItem>
+      <NavItem to="/metadata" className="is-hoverable">Metadata</NavItem>
+      <NavItem to="/links" className="is-hoverable">Links</NavItem>
+      <NavItem to="/resources" className="is-hoverable">Resources</NavItem>
     </>
   )
 }
 
 const NavItem = styled(Link)`
-  text-decoration: none;
-  color: #111;
+  font-family: "Cinzel Decorative";
+  color: snow;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
   transition: all 200ms ease-in;
   position: relative;
+  text-decoration: none;
+  list-style-type: none;
 
   :after {
     position: absolute;
@@ -33,13 +33,13 @@ const NavItem = styled(Link)`
     width: 0%;
     content: ".";
     color: transparent;
-    background: tomato;
+    background: gold;
     height: 1px;
     transition: all 0.4s ease-in;
   }
 
   :hover {
-    color: tomato;
+    color: gold;
     ::after {
       width: 100%;
     }

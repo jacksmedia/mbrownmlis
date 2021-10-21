@@ -43,9 +43,9 @@ const BlogIndex = ({ data, location }) => {
             return (
               <IO rootMargin = '-10px'>
               {({isVisible})=>(
-                <Post key={post.fields.slug} isVisible={isVisible} className="svg-hexes-snowfall">
+                <Post key={post.fields.slug} isVisible={isVisible} className="post-list-item ghost-books">
                   <article
-                    className="post-list-item svg-hexes"
+                    className="ghost-books-hue"
                     itemScope
                     itemType="http://schema.org/Article"
                   >

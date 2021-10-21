@@ -1,4 +1,5 @@
 @import 'bulma/css/bulma.css';
+
 /* 
              /\                    /\        /\
             /__\      /\_____/\   /__\      /__\
@@ -45,7 +46,7 @@ body {
   font-family: "Times New Roman Roman", sans-serif;
   font-size: var(--fontSize-1);
   color: $black;
-  background: linear-gradient(180deg, #EAE8B4, #CC8033);
+  background: linear-gradient(0deg, #EAE8B4, #CC8033);
   background: #CC8033;
 }
 
@@ -138,16 +139,7 @@ figure {
 }
 .post-list-item {
   line-height: 2rem;
-  min-height: 70vh;
-}
-
-.svg-hexes-snowfall {
-  background: linear-gradient(to bottom right, rgba(255,255,255,1.0),rgba(255,255,255,0.2));
-  z-index: 30;
-}
-.svg-hexes {
-  z-index: 20;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23fffafa' fill-opacity='0.26' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  min-height: 20vh;
 }
 
 .blog-post {
@@ -163,7 +155,7 @@ figure {
 }
 
 .post-lede {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding-right: 1.3rem;
   padding-top: 1.3rem;
 }
@@ -178,7 +170,7 @@ ul, ol {
     margin-left: var(--spacing-0);
   }
   ul, ol {
-    list-style-position: inside;
+    list-style-position: none;
     padding-left: 2rem;
   }
 }
@@ -270,21 +262,18 @@ ul, ol {
     color: tomato; 
   }
 }
-@keyframes fun-summertime-palette-text {
+@keyframes whitegoldanimation {
   0% {
-    color: navy; 
+    color: snow;
+    text-shadow: white 0px -1px,white 0px 1px,white 1px 0px,white -1px 0px; 
   }
-  20% {
-    color: tomato; 
+  50% {
+    color: #082C2A; 
+    text-shadow: gold 0px -1px,gold 0px 1px,gold 1px 0px,gold -1px 0px; 
   }
-  40% {
-    color: red; 
-  }
-  60% {
-    color: fuchsia; 
-  }
-  80% {
-    color: blue; 
+  100% {
+    color: snow; 
+    text-shadow: white 0px -1px,white 0px 1px,white 1px 0px,white -1px 0px; 
   }
 }
 
@@ -352,7 +341,8 @@ th {
 /* Links + hamburger w chromatic sauce */
 
 a {
-  animation: fun-summertime-palette-text 4s ease 0.95s infinite;
+  animation: whitegoldanimation 4s ease 0.95s infinite;
+  text-decoration: none;
 }
 
 a:hover,
@@ -381,3 +371,32 @@ a:focus {
   from {opacity: 1}
   to {opacity: 0}
 }
+
+
+
+.ghost-books {
+  background: url(images/ghostbooks.png) center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+}
+.ghost-books-hue {
+  background: linear-gradient(180deg, snow, #EAE8B4);
+  padding: 2rem;
+}
+
+
+// legibility fix for this site's color scheme
+
+p + a {
+  color: navy;
+}
+
+
+// SVGs
+
+.svg-hexes {
+  z-index: 20;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23fffafa' fill-opacity='0.26' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
