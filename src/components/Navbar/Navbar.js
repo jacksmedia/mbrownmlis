@@ -6,11 +6,6 @@ const TopBar = styled.nav`
   min-height: 72px;
   height: 10vh;
   position: relative;
-  background: url(books_notext.png) center center fixed; 
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
   display: flex;
   justify-content: space-between;
   align-items: center;
