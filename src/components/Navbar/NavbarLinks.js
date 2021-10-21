@@ -4,13 +4,13 @@ import { Link } from "gatsby"
 
 const NavbarLinks = () => {
   return (
-    <>
+    <ul className="sezzy-slider">
       <NavItem to="/aboutme" className="is-hoverable">About Me</NavItem>
       <NavItem to="/digitalservices" className="is-hoverable">Digital Services</NavItem>
       <NavItem to="/metadata" className="is-hoverable">Metadata</NavItem>
       <NavItem to="/links" className="is-hoverable">Links</NavItem>
       <NavItem to="/resources" className="is-hoverable">Resources</NavItem>
-    </>
+    </ul>
   )
 }
 
