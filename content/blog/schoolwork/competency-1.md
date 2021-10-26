@@ -55,3 +55,10 @@ The complex issues of intellectual freedom are an important part of being a libr
 > American Library Association. (1996). Library Bill of Rights. Retrieved from: http://www.ala.org/advocacy/intfreedom/librarybill
 
 > American Library Association. (2008). Code of Ethics. Retrieved from: http://www.ifmanual.org/codeethics
+
+
+[Evidence 1](200-Assignment5.doc.pdf)
+
+[Evidence 2](204.EnvironmentalScan.docx.pdf)
+
+[Evidence 3](240.swf2avi_001.avi)
