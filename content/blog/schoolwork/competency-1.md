@@ -41,7 +41,7 @@ My second piece of evidence is a paper from LIBR 204 called “When good old pap
 </p>
 
 <p>
-My third piece of evidence is a discussion post from week 3 of LIBR 285. This discussion asked us to choose a theory, a conceptional framework, or a model that pertains to the topic of our research study. I chose Bandura’s Self-Efficacy theory. This theory suggests that self-beliefs of efficacy (or how well a person believes he or she can accomplish a thing) can enhance or impair performance throughout its deep effects on motivation, self-understanding and feelings. This theory was applicable to my research study because I was exploring how self-efficacy effects how hearing and visually impaired patrons use library services. It is important that these patrons have equal access to information resources.
+[My third piece of evidence]() is a discussion post from week 3 of LIBR 285. This discussion asked us to choose a theory, a conceptional framework, or a model that pertains to the topic of our research study. I chose Bandura’s Self-Efficacy theory. This theory suggests that self-beliefs of efficacy (or how well a person believes he or she can accomplish a thing) can enhance or impair performance throughout its deep effects on motivation, self-understanding and feelings. This theory was applicable to my research study because I was exploring how self-efficacy effects how hearing and visually impaired patrons use library services. It is important that these patrons have equal access to information resources.
 </p>
 
 
@@ -50,7 +50,7 @@ My third piece of evidence is a discussion post from week 3 of LIBR 285. This di
 The complex issues of intellectual freedom are an important part of being a librarian. Unlike most professions, we are not part of a commercial enterprise. Meeting rooms, reference help, and access to catalogs are not provided to patrons based on a pay scale. Librarians and other information professionals provide free and open access of information to our patrons as well as following the ethics and values expressed eloquently in ALA’s Library Bill of Rights. We are part of the force that holds back that pebble that would turn into a landslide of loss to both freedom and culture. We, as information professionals, must protect the rights of our patrons and thus our society, always staying mindful of the need to respect our patrons and each other. I strive to remember this duty each time I walk into my organization.
 
 
-# Citation:
+# Citations:
 
 > American Library Association. (1996). Library Bill of Rights. Retrieved from: http://www.ala.org/advocacy/intfreedom/librarybill
 
