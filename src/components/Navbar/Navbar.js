@@ -41,7 +41,8 @@ const Toggle = styled.div`
 const NavTitle = styled(Link)`
   font-family: "Cinzel Decorative";
   text-decoration: none;
-  font-size: 22px;
+  font-size: 1.55rem;
+  text-shadow: 0px 1px black, 1px 0px black, -1px 0px black, 0px -1px black;
   color: snow;
   display: inline-block;
   white-space: nowrap;

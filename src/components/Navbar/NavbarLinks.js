@@ -6,10 +6,8 @@ const NavbarLinks = () => {
   return (
     <ul className="sezzy-slider">
       <NavItem to="/aboutme" className="is-hoverable">About Me</NavItem>
-      <NavItem to="/digitalservices" className="is-hoverable">Digital Services</NavItem>
-      <NavItem to="/metadata" className="is-hoverable">Metadata</NavItem>
-      <NavItem to="/links" className="is-hoverable">Links</NavItem>
       <NavItem to="/resources" className="is-hoverable">Resources</NavItem>
+      <NavItem to="/schoolwork" className="is-hoverable">Schoolwork</NavItem>
     </ul>
   )
 }
@@ -17,6 +15,8 @@ const NavbarLinks = () => {
 const NavItem = styled(Link)`
   font-family: "Cinzel Decorative";
   color: snow;
+  font-size: 1.35rem;
+  text-shadow: 0px 1px black, 1px 0px black, -1px 0px black, 0px -1px black;
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
