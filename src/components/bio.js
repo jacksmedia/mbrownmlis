@@ -31,26 +31,28 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="floatybox">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/brookside.jpeg"
-        width={300}
-        height={300}
-        quality={95}
-        alt="Profile picture"
-      />
-      {author?.name && (
-        <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://linkedin.com/in/emily-brown-9689a327/`}>
-            Here is my LinkedIn
-          </a>.&nbsp;Huzzah!
-        </p>
-      )}
+    <div className="center-out">
+      <div className="floatybox sepia-porthole center-in">
+        <StaticImage
+          className="bio-avatar"
+          layout="fixed"
+          formats={["AUTO", "WEBP", "AVIF"]}
+          src="../images/brookside.jpeg"
+          width={300}
+          height={300}
+          quality={95}
+          alt="Profile picture"
+        />
+        {author?.name && (
+          <h3 className="white-text">
+            Written by <strong>{author.name}</strong> {author?.summary || null}
+            {` `}
+            <a href={`https://linkedin.com/in/emily-brown-9689a327/`}>
+              Here is my LinkedIn
+            </a>.&nbsp;Huzzah!
+          </h3>
+        )}
+      </div>
     </div>
   )
 }

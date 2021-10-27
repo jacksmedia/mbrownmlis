@@ -32,6 +32,7 @@ const Toggle = styled.div`
   height: 100%;
   cursor: pointer;
   padding: 0 10vw;
+  text-decoration: none;
 
   @media (max-width: 768px) {
     display: flex;
@@ -62,9 +63,10 @@ const Navtray = styled.div`
     width: 70%;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 0px;
+    padding-top: 72px;
     background-color: #082C2A;
     transition: all 0.3s ease-in;
+    top: 72px;
     right: ${props => (props.open ? "-100%" : "0")};
   }
 `
@@ -73,7 +75,7 @@ const Hamburger = styled.div`
   background-color: #eee;
   width: 30px;
   height: 3px;
-  transition: all 0.3s linear;
+  transition: all .3s linear;
   align-self: center;
   position: relative;
   transform: ${props => (props.open ? "rotate(-45deg)" : "inherit")};
