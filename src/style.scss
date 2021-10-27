@@ -331,8 +331,10 @@ a {
 
 a:hover,
 a:focus {
+  color: gold;
+}
+header > h1:focus {
   color: chocolate;
-  // animation: whitechocolateanimation 1s ease 0.3s;
 }
 
 h1 a:hover {
