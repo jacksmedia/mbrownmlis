@@ -83,4 +83,4 @@ The creation of an effective IR system must be iterative, as the design and eval
 
 [Evidence 2](242.Assign1.doc.pdf)
 
-[Evidence 3](247.Assignment#3EB.doc.pdf)
+[Evidence 3](247.Assignment.3EB.doc.pdf)

@@ -61,6 +61,6 @@ Overall, effective management of a collection of information involves putting th
 
 [Evidence 1](247.Week2Posting.doc.pdf)
 
-[Evidence 2](247.Assignment#1.doc.pdf)
+[Evidence 2](247.Assignment.1.doc.pdf)
 
 [Evidence 3](202.Assign4.pdf)

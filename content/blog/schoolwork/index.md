@@ -27,7 +27,7 @@ The evidence of my classwork and interests are visible here, with this website. 
 
 The culmination of my LIS graduate work was the creation of my e-portfolio. This e-portfolio organized my two and half years of school work into several pages, based on topic. Each page includes a description of the competency, an essay on the topic, and three pieces of evidence of my work. I recently reread my essays, to redact any information and generally reminisce. I’ve added links to their pages below.
 
-[E-Portfolio Introduction](introduction.md)
+[E-Portfolio Introduction](schoolwork/introduction.md)
 
 [Philosophy](philosophy.md)
 
