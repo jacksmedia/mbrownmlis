@@ -1,5 +1,6 @@
 ---
 title: Competency 11
+pagination: 21
 date: "2021-01-01T12:24:36.480Z"
 description: Design instructional programs based on learning principles and theories
 ---

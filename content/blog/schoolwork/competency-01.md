@@ -1,5 +1,6 @@
 ---
 title: Competency 1
+pagination: 11
 date: "2021-01-01T12:24:36.480Z"
 description: Articulate the ethics, values, and foundational principles of library and information professionals and their role in the promotion of intellectual freedom
 ---

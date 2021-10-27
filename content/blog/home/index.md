@@ -1,5 +1,6 @@
 ---
 title: M Brown has an MLIS
+pagination: 2
 date: "2021-01-01T12:23:36.480Z"
 description: I like to work with data and information
 ---

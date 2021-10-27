@@ -1,5 +1,6 @@
 ---
 title: Competency 10
+pagination: 20
 date: "2021-01-01T12:24:36.480Z"
 description: Describe the fundamental concepts of information-seeking behaviors
 ---
