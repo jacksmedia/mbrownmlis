@@ -1,57 +1,90 @@
 ---
-title: Competency 1
+title: Resources
 date: "2021-01-01T12:24:36.480Z"
-description: Articulate the ethics, values, and foundational principles of library and information professionals and their role in the promotion of intellectual freedom
+description: Resources and links
 ---
 
-> “Articulate the ethics, values, and foundational principles of library and information professionals and their role in the promotion of intellectual freedom”
-
-# Introduction
-<p>
-The role of librarians has changed over the millennia. Unlike the Alexandrian archivists of old, we are no longer the only souls walking the stacks, finding one document among many. When the style of libraries changed, especially in this country, the stacks were open and we relinquished a great deal of control. With that lack of control I feel that a greater understanding of what it means to be a librarian, or an information professional, is now required. Why? We can’t control our patrons’ actions or reading habits.
-</p>
-
-<p>
-At a vulnerable yet booming moment in the history of America’s public library system, after Carnegie’s philanthropy had opened scores of new branches across America, there was discussion about whether popular and entertaining -but not educational- books should be available in these libraries. Some librarians felt themselves custodians of a tradition of education and self betterment, and wished it to remain the exclusive role of their profession. Others believed that every patron deserves the right to access whatever book they desire. These enlightened librarians are the ones we owe to remember well. They understood the necessity of protecting the rights of library patrons, and fought to secure them equal access to a diverse range of information, and protection of their privacy and intellectual freedom. They also championed the need to provide this level of information access to everyone in society, effectively serving the underserved.
-</p>
-
-<p>
-The ethics of librarians and information professionals are rooted in the idea of what a library represents. Early in American history, there used to be subscription based libraries. Patrons would pay a certain fee and be able to borrow books from a rather small, and usually niche, collection. The money collected would in turn allow the library’s offerings to grow. If a patron could no longer afford the subscription fees, they would not be allowed to use the library. There was also no collaboration between subscription libraries. If your subscription library didn’t have or couldn’t buy a book, you would have to buy the book yourself or find another subscription library. When public libraries became the norm in many communities, this idea of pay for library services went away. Now, tax money was used to provide library services and access to the collection of books to all, regardless of economic status. This underlines one of the main ethical forces of librarianship; to provide information access to all, regardless of status. Librarians and information professionals do not alienate or discriminate against anyone based on gender, economic status, race, language, age or disability.
-
-<p>
-Protection of readers’ privacy is also an ethical foundation of librarianship. Patrons have the right to absolute privacy. This means that librarians may not track what a patron checks out or reads, may not comment on a book in the patron’s possession without the patron mentioning it first. As part of being a librarian, it’s our responsibility to make sure that the technology we use, for example the OPAC system, does not track each patron’s check out list, and that that information is inaccessible.
-</p>
-
-<p>
-Examining ALA’s Library Bill of Rights, first adopted in 1939, I am reminded of the Banned Book Week which happened in September. This week showcases the books that are challenged to be removed altogether, as a result of person or a group’s formal challenge to the library system to remove material that they find so offensive or lacking in merit that it should not exist in the public catalog anymore. The ethical foundation of the right of diversity of information supports the Banned Book Week, as information and documents must not be excluded from a library collection based on the origin, background or views of their creators.
-</p>
-
-<p>
-Librarianship is more than just putting books on shelves, or helping people find a document. As a librarian, one must understand that part of our role is to protect intellectual freedom. This means putting books that one may not personally agree with on the shelves. It means politely standing firm against an outraged patron. During my undergraduate degree I was fortunate to take an anthropology class with a wonderful teacher who really explained the importance of freedom of speech. Yelling “Fire!” when there IS a fire in a crowded building can save lives. Yelling “Fire!” where there is no fire can cause serious damages in this situation. Someone choosing to read a politically incorrect or unpopular book is exercising their right as a library patron. It is our duty to follow the ideals of the Library Bill of Rights. The way a society slowly turns towards trying to control the thoughts and available information of its people often begins with just a tiny incident, such as banning a recently published book that offends the party line, and then snowballs from there into outright repression.
-</p>
+# Interesting Links
 
 
-# Evidence:
-<p>
-My first piece of evidence is LIBR 200 Assignment #5. This paper is focused on the history of Young Adult services. It discusses how, prior to 1939, there would often be an age limit excluding children under the age of 12 from entering or using the library. The young adults, those between childhood and adulthood, were an under-supported section of library patrons. There are still issues plaguing young adult patrons and their interactions with librarians. Some librarians are hesitant to fully interact with young adults going though adolescence because the librarians themselves are reminded of their own painful adolescence. Nonetheless, young adults are important part of library users and their rights need to be respected.
-</p>
-
-<p>
-My second piece of evidence is a paper from LIBR 204 called “When good old paper and pencil are not enough.” This paper was a response to a story we read about a university’s library department, their digitization project, and the vice president’s request to a library named Michael to head up a grant team. In the story, it’s indicated that Michael is deeply uncomfortable with technology and unwilling to adapt to change. This paper is my response to question about what Michael and the vice president should do in this situation. Let’s say Michael lies to the VP and accepts the position as head of the grant team, knowing that his comfort level and understanding of the technology needed for the project is woefully inadequate. Or if Michael admits that he is not the right person for the position, though this may put his job at risk. This paper explores the ethical questions of what the VP should do as well as what Michael should do.
-</p>
-
-<p>
-My third piece of evidence is a discussion post from week 3 of LIBR 285. This discussion asked us to choose a theory, a conceptional framework, or a model that pertains to the topic of our research study. I chose Bandura’s Self-Efficacy theory. This theory suggests that self-beliefs of efficacy (or how well a person believes he or she can accomplish a thing) can enhance or impair performance throughout its deep effects on motivation, self-understanding and feelings. This theory was applicable to my research study because I was exploring how self-efficacy effects how hearing and visually impaired patrons use library services. It is important that these patrons have equal access to information resources.
-</p>
+Since June of 2013 I've been volunteering with, and later working for, Portland State University's library. I've mainly been working with their open access repository called PDXScholar. Here's a link to their homepage: [PDXScholar](https://web.archive.org/web/20160812135957/http://pdxscholar.library.pdx.edu/) Their description of their site describes in detail the services they provide and the sorts of resources available. I think it's a wonderful resource for information.
 
 
-# Conclusion:
 
-The complex issues of intellectual freedom are an important part of being a librarian. Unlike most professions, we are not part of a commercial enterprise. Meeting rooms, reference help, and access to catalogs are not provided to patrons based on a pay scale. Librarians and other information professionals provide free and open access of information to our patrons as well as following the ethics and values expressed eloquently in ALA’s Library Bill of Rights. We are part of the force that holds back that pebble that would turn into a landslide of loss to both freedom and culture. We, as information professionals, must protect the rights of our patrons and thus our society, always staying mindful of the need to respect our patrons and each other. I strive to remember this duty each time I walk into my organization.
+I’ve had the opportunity to work on several projects and pages. These are mainly through the direction of the Archives department at PSU. My contribution usually involves organization, metadata creation, and uploading into PDXScholar. The types of information documents I've worked with is varied. Here’s a list, organized by media type.
 
 
-# Citation:
 
-> American Library Association. (1996). Library Bill of Rights. Retrieved from: http://www.ala.org/advocacy/intfreedom/librarybill
+-Photo/Text: [Verdell Burdine and Otto G. Rutherford Family Collection,](https://web.archive.org/web/20160812135957/http://pdxscholar.library.pdx.edu/rutherford/) which includes family photos, the Portland NAACP Scrapbook, the Women's organization: the Culture Club and a series of videos about the collection called "Say We Are Here." [PSU Viking Yearbooks](https://web.archive.org/web/20160812135957/http://pdxscholar.library.pdx.edu/viking/) Portland State University's yearbooks from 1946 to 1962.
 
-> American Library Association. (2008). Code of Ethics. Retrieved from: http://www.ifmanual.org/codeethics
+-Audio: [Oregon Public Speakers,](https://web.archive.org/web/20160812135957/http://pdxscholar.library.pdx.edu/orspeakers/) a large selection of historical speakers who visited the campus [Sustainability History Project,](https://web.archive.org/web/20160812135957/http://pdxscholar.library.pdx.edu/sustainability/) a capstone class where students interviewed members of the region involved in sustainability.
+
+-Audio/Visual: [Gift of the Word,](https://web.archive.org/web/20160812135957/http://pdxscholar.library.pdx.edu/giftoftheword/) a collection of manuscripts, videos, and an exhibit catalog.
+
+
+# Metadata
+
+
+
+Sitting down in front of a library computer and opening their OPAC system, or Online Public Access Catalog, usually means searching for a specific item, or browsing.
+
+
+
+The records that come up on the computer show a very basic set of information about the book in question. Common fields are things like title, the year of publication, the subject, the author, etc. The metadata contained in a record represents the book without having to have the book in front of you.
+
+
+
+Consider the difference between an issue of a magazine, a book, and a music cd. Those records would look slightly different. The magazine requires an issue number, while the book and cd do not, just to site one example.
+
+
+
+The function of metadata is to describe the object to the user in a very useful manner. One where you could easily create a citation from just the information in the record.
+
+
+
+There are several different types of metadata, called schemas. They are usually divided up by user and also object type.
+
+
+
+Within a metadata record there can be different types of information. Not just descriptive data about the object, but also technical metadata or administrative metadata that includes things like file type. Metadata records can also include useful items like rights management information, and preservation information.
+
+
+
+Museums use their own metadata schemas to catalog their holdings, for example. Their collections have a different set of requirements for their users. They need to include materials, as well as the title and creator.
+
+
+
+One long standing type of metadata is the Dewey Decimal System, with it's card catalog providing relevant information. The tiny 3x5 cards were far easier to rearrange than moving the actual books around.
+
+
+
+Practically any collection of objects, such as music files, photographs, artwork, video, and web created documents, like this one, have their own metadata standards. In fact, there are sometimes several metadata schemas to choose from.
+
+
+
+Dublin Core, DC, is a popular metadata schema, with it's basic 15 elements and it's clear data dictionary illustrating exactly what goes where.
+
+
+
+Metadata creation is a key component of library cataloging. One long standing type is MARC, Machine Readable Cataloging, which was created at the dawn of the digital age, in the 1960s.
+
+
+
+A key difference between DC and MARC is that MARC titles its fields with numbers. The title field is labeled 245. DC uses commonly used words for its field names, so the title field is simply - title.
+
+
+
+There are some very interesting new metadata schemas that are up and coming in the field, such as RDA, and several that make use of XML.
+
+
+
+One note for new researchers interested in exploring this topic; there are many acronyms. MIX, MODS, TEI, EAD, DC, MARC, and more. All in all, it's good to remember the definition of metadata - data about data.
+
+
+# Want to know more?
+
+Here are some resources:
+
+San Jose State University's MLIS program is all online. Read more about it here: [SJSU's School of Library and Information Science: Prospective Students](https://web.archive.org/web/20160812181834/http://slisweb.sjsu.edu/prospective-students/discover-online-learning)
+
+Library of Congress Authorities, for vocabulary control, [LOC Link](https://web.archive.org/web/20160812181834/http://authorities.loc.gov/)
