@@ -8,7 +8,7 @@ module.exports = {
     description: `Guide to getting to know M Brown, MLIS.`,
     siteUrl: `https://mbrownmlis.com/`,
     social: {
-      twitter: `__j4cks__`,
+      linkedin: `in/emily-brown-9689a327/`,
     },
   },
   plugins: [
@@ -18,8 +18,8 @@ module.exports = {
         name: `M Brown MLIS`,
         short_name: `MBrownMLIS.com`,
         start_url: `/`,
-        background_color: `#082C2A`,
-        theme_color: `#EAE8B4`,
+        background_color: `#CC8033`,
+        theme_color: `#082C2A`,
         display: `standalone`,
         icon: `src/images/gatsby-icon.png`,
         crossOrigin: `use-credentials`,

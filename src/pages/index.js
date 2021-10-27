@@ -4,6 +4,7 @@ import styled from "styled-components"
 import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Imager from "../components/imager"
+import Bio from "../components/bio"
 import IO from "../components/io"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -36,6 +37,7 @@ const BlogIndex = ({ data, location }) => {
     return (
       <Layout location={location} title={siteTitle}>
         <SEO title="All posts" />
+        <Bio />
         <ol style={{ listStyle: `none` }} className="main-list mains">
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug

@@ -31,14 +31,14 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="bio-tile">
+    <div className="floatybox">
       <StaticImage
         className="bio-avatar"
         layout="fixed"
         formats={["AUTO", "WEBP", "AVIF"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
+        src="../images/brookside.jpeg"
+        width={300}
+        height={300}
         quality={95}
         alt="Profile picture"
       />
@@ -46,9 +46,9 @@ const Bio = () => {
         <p>
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Here is our Twitter
-          </a>.&nbsp; Thank you for reading this logistical (not financial) advice!
+          <a href={`https://linkedin.com/in/emily-brown-9689a327/`}>
+            Here is my LinkedIn
+          </a>.&nbsp;Huzzah!
         </p>
       )}
     </div>
