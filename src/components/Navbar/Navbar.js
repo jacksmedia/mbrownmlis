@@ -52,13 +52,9 @@ const NavTitle = styled(Link)`
 `
 
 const Navtray = styled.div`
-  display: flex;
   height: 100%;
-  justify-content: flex-end;
-  align-items: center;
 
   @media (max-width: 768px) {
-    flex-direction: column;
     position: fixed;
     width: 70%;
     justify-content: flex-start;

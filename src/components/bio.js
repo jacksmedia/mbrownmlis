@@ -31,7 +31,7 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
 
   return (
-    <div className="center-out">
+    <div className="center-out mt-5">
       <div className="floatybox sepia-porthole center-in">
         <StaticImage
           className="bio-avatar"

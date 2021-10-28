@@ -13,6 +13,8 @@ const NavbarLinks = () => {
 }
 
 const NavItem = styled(Link)`
+  display: flex;
+  flex-direction: column;
   font-family: "Cinzel Decorative";
   color: snow;
   font-size: 1.35rem;
