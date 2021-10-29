@@ -32,7 +32,6 @@ const Toggle = styled.div`
   height: 100%;
   cursor: pointer;
   padding: 0 10vw;
-  text-decoration: none;
 
   @media (max-width: 768px) {
     display: flex;
@@ -52,13 +51,19 @@ const NavTitle = styled(Link)`
 `
 
 const Navtray = styled.div`
+  display: flex;
+  flex-direction: row;
   height: 100%;
+  justify-content: flex-end;
+  align-items: center;
 
   @media (max-width: 768px) {
-    position: fixed;
-    width: 70%;
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    position: fixed;
+    width: 75%;
+
     padding-top: 72px;
     background-color: #082C2A;
     transition: all 0.3s ease-in;

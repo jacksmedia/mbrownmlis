@@ -18,8 +18,8 @@ module.exports = {
         name: `M Brown MLIS`,
         short_name: `MBrownMLIS.com`,
         start_url: `/`,
-        background_color: `#CC8033`,
-        theme_color: `#082C2A`,
+        background_color: `#330705`,
+        theme_color: `#fffafc`,
         display: `standalone`,
         icon: `src/images/gatsby-icon.png`,
         crossOrigin: `use-credentials`,
@@ -33,6 +33,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/blog/schoolwork`,
+        name: `schoolwork`,
       },
     },
     {
