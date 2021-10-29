@@ -1,6 +1,6 @@
 ---
 title: Competency 3
-pagination: 13
+pagination: 7
 date: "2021-01-01T12:24:36.480Z"
 description: Recognize and describe cultural and economic diversity in the clientele of libraries or information organizations
 ---

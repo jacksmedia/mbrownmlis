@@ -1,6 +1,6 @@
 ---
 title: Competency 9
-pagination: 19
+pagination: 13
 date: "2021-01-01T12:24:36.480Z"
 description: Use service concepts, principles, and techniques to connect individuals or groups with accurate, relevant, and appropriate information
 ---
