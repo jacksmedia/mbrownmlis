@@ -1,6 +1,6 @@
 ---
 title: Conclusion
-pagination: 25
+pagination: 19
 date: "2021-01-01T12:24:36.480Z"
 description: E-portfolio Conclusion
 ---

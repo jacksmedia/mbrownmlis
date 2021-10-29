@@ -1,6 +1,6 @@
 ---
 title: Competency 2
-pagination: 12
+pagination: 6
 date: "2021-01-01T12:24:36.480Z"
 description: Describe and compare the organizational settings in which library and information professionals practice
 ---

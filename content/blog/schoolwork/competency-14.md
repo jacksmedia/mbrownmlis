@@ -1,6 +1,6 @@
 ---
 title: Competency 14
-pagination: 24
+pagination: 18
 date: "2021-01-01T12:24:36.480Z"
 description: Evaluate programs and services on measurable criteria
 ---

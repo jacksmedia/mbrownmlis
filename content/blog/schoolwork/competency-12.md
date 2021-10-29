@@ -1,6 +1,6 @@
 ---
 title: Competency 12
-pagination: 22
+pagination: 16
 date: "2021-01-01T12:24:36.480Z"
 description: Demonstrate understanding of quantitative and qualitative research methods and of the evaluation and synthesis of research literature
 ---
