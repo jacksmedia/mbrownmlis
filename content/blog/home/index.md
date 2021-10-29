@@ -1,11 +1,11 @@
 ---
 title: M Brown has an MLIS
-pagination: 2
+pagination: 1
 date: "2021-01-01T12:23:36.480Z"
 description: I like to work with data and information
 ---
 
-![Picture of M Brown, woman holding Master's degree](/src/images/myMLIS.gif)
+![Picture of M Brown, woman holding Master's degree](myMLIS.gif)
 
 # Greetings and Salutation!
 
