@@ -62,7 +62,7 @@ const Navtray = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     position: fixed;
-    width: 75%;
+    width: 20rem;
 
     padding-top: 72px;
     background-color: #082C2A;
