@@ -134,7 +134,7 @@ figure {
 }
 
 .mains {
-  padding: 0rem 0.5rem 20rem 0rem;
+  padding: 0rem 0.5rem 3rem 0rem;
 }
 .post-list-item {
   line-height: 2rem;
@@ -150,7 +150,7 @@ figure {
 .blog-post header {
   margin-bottom: 2rem;
   font-size: 2.3rem;
-  padding: 0.5vh;
+  padding: 0.3vh;
 }
 
 .post-lede {
@@ -217,8 +217,8 @@ ul, ol {
 }
 
 .engraved {
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   display: flex;
   flex-wrap: row nowrap;
   align-items: center;
@@ -263,16 +263,20 @@ ul, ol {
 }
 
 /* candybean button */
+.btn-wrapper {
+  
+}
+
 .btn {
   border: none;
   background-color: #082C2A;
   color: snow;
-  padding: 1.3vw 1.5vh;
+  padding: 1vw 1.2vh;
   text-align: center;
   overflow-wrap: break-word;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border-radius: 2vw;
-  margin: 4px 2px;
+  margin: 0px 0px;
   transition: 0.5s;
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }

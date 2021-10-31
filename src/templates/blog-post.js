@@ -33,18 +33,18 @@ const BlogPostTemplate = ({ data, location }) => {
           style={{
             display: `flex`,
             flexWrap: `wrap`,
-            justifyContent: `space-around`,
+            justifyContent: `space-between`,
             padding: 20,
           }}
         >
-          <div>
+          <div className="btn-wrapper">
             {previous && (
               <Link className="btn" to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
               </Link>
             )}
           </div>
-          <div>
+          <div className="btn-wrapper">
             {next && (
               <Link className="btn" to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
