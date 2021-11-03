@@ -297,9 +297,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Cinzel Decorative', serif;
 }
 
-p {
-  margin-top: 4vh;
-  margin-bottom: 4vh;
+li {
+  color: chocolate;
+  font-family: 'Cinzel Decorative', serif;
+  list-style: square;
+  padding-top: 0.5rem;
 }
 
 /* table UI fixes for MD */

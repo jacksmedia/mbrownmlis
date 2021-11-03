@@ -1,10 +1,9 @@
 import React, { useState, setState } from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import styled from "styled-components"
-import TransitionLink from "gatsby-plugin-transition-link"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import Imager from "../components/imager"
 import Bio from "../components/bio"
+import DegreePicture from "../components/degreepicture"
 import IO from "../components/io"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -20,12 +19,11 @@ const Post = styled.li`
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
-  const fade = useState(false)
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="" />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in
@@ -36,12 +34,14 @@ const BlogIndex = ({ data, location }) => {
   } else {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="All posts" />
+        <SEO title="" />
         <Bio />
         <ol style={{ listStyle: `none` }} className="main-list mains">
+          <AniLink cover direction="left" duration={1} bg="#330705" to='/aboutme' itemProp="url">
+            <DegreePicture />
+          </AniLink>
           {posts.map(post => {
             const title = post.frontmatter.title || post.fields.slug
-
             return (
               <IO rootMargin = '-10px'>
               {({isVisible})=>(
@@ -51,12 +51,6 @@ const BlogIndex = ({ data, location }) => {
                     itemScope
                     itemType="http://schema.org/Article"
                   >
-                    <Imager
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                      }}
-                     />
                     <header>
                       <h1 className="landingpage-blogtitle glowy-text">
                         <AniLink cover direction="right" duration={1} bg="#330705" to={post.fields.slug} itemProp="url">
