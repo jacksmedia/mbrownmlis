@@ -54,7 +54,7 @@ const BlogIndex = ({ data, location }) => {
                     <header>
                       <h1 className="landingpage-blogtitle glowy-text">
                         <AniLink cover direction="right" duration={1} bg="#330705" to={post.fields.slug} itemProp="url">
-                          <span itemProp="headline">{title}</span>
+                          <span className="specialtimes" itemProp="headline">{title}</span>
                         </AniLink>
                       </h1>
                     </header>
