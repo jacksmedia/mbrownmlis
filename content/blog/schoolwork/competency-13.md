@@ -1,6 +1,5 @@
 ---
 title: Competency 13
-pagination: 17
 date: "2021-04-26T12:24:36.480Z"
 description: Demonstrate oral and written communication skills necessary for professional collaboration and presentations
 ---

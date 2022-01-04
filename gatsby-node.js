@@ -110,7 +110,6 @@ exports.createSchemaCustomization = ({ actions }) => {
     type Frontmatter {
       title: String
       description: String
-      pagination: Int
       date: Date @dateformat
     }
 

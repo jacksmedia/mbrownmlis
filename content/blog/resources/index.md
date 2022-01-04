@@ -1,6 +1,5 @@
 ---
 title: Resources
-pagination: 20
 date: "2021-05-02T12:24:36.480Z"
 description: Resources and links
 ---

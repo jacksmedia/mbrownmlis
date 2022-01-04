@@ -1,6 +1,5 @@
 ---
 title: Philosophy
-pagination: 4
 date: "2021-01-03T12:24:36.480Z"
 description: E-Portfolio Personal Philosophy
 ---

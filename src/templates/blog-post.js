@@ -78,7 +78,6 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        pagination
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
@@ -87,7 +86,6 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        pagination
       }
     }
     next: markdownRemark(id: { eq: $nextPostId }) {
@@ -96,7 +94,6 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        pagination
       }
     }
   }

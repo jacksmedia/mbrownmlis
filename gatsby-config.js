@@ -122,7 +122,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: ASC, frontmatter: [frontmatter___pagination] },
+                  sort: { order: ASC, fields: [frontmatter___date] },
                 ) {
                   nodes {
                     excerpt
