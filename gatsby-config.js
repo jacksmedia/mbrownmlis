@@ -96,7 +96,6 @@ module.exports = {
               siteMetadata {
                 title
                 description
-                pagination
                 siteUrl
                 site_url: siteUrl
                 menuLinks {
@@ -114,7 +113,6 @@ module.exports = {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
-                  pagination: node.frontmatter.pagination,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
@@ -135,7 +133,6 @@ module.exports = {
                     frontmatter {
                       title
                       date
-                      pagination
                     }
                   }
                 }
@@ -150,6 +147,6 @@ module.exports = {
     // `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
