@@ -1,7 +1,7 @@
 ---
 title: Competency 7
 pagination: 11
-date: "2021-01-01T12:24:36.480Z"
+date: "2021-04-11T12:24:36.480Z"
 description: Demonstrate understanding of basic principles and standards involved in organizing information, including classification, cataloging, metadata, or other systems
 ---
 

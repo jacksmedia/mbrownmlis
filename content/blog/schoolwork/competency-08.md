@@ -1,7 +1,7 @@
 ---
 title: Competency 8
 pagination: 12
-date: "2021-01-01T12:24:36.480Z"
+date: "2021-04-17T12:24:36.480Z"
 description: Demonstrate proficiency in identifying, using, and evaluating current and emerging information and communication technologies
 ---
 

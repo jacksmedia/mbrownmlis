@@ -7,8 +7,16 @@ module.exports = {
     },
     description: `Guide to getting to know M Brown, MLIS.`,
     siteUrl: `https://mbrownmlis.com/`,
+    menuLinks: [
+      {
+        name:'home',link:'/'
+      },
+      {
+        name:'page2',link:'page-2'
+      },
+    ],
     social: {
-      linkedin: `in/emily-brown-9689a327/`,
+      linkedin: `https://linkedin.com/in/emily-brown-9689a327/`,
     },
   },
   plugins: [
@@ -88,8 +96,13 @@ module.exports = {
               siteMetadata {
                 title
                 description
+                pagination
                 siteUrl
                 site_url: siteUrl
+                menuLinks {
+                  name
+                  link
+                }
               }
             }
           }
@@ -101,6 +114,7 @@ module.exports = {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
+                  pagination: node.frontmatter.pagination,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
@@ -110,7 +124,7 @@ module.exports = {
             query: `
               {
                 allMarkdownRemark(
-                  sort: { order: ASC, fields: [frontmatter___pagination] },
+                  sort: { order: ASC, frontmatter: [frontmatter___pagination] },
                 ) {
                   nodes {
                     excerpt
@@ -121,6 +135,7 @@ module.exports = {
                     frontmatter {
                       title
                       date
+                      pagination
                     }
                   }
                 }

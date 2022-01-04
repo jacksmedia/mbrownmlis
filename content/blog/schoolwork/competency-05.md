@@ -1,7 +1,7 @@
 ---
 title: Competency 5
 pagination: 9
-date: "2021-01-01T12:24:36.480Z"
+date: "2021-03-29T12:24:36.480Z"
 description: Design, query, and evaluate information retrieval systems
 ---
 

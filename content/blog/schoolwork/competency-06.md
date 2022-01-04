@@ -1,7 +1,7 @@
 ---
 title: Competency 6
 pagination: 10
-date: "2021-01-01T12:24:36.480Z"
+date: "2021-04-10T12:24:36.480Z"
 description: Use the basic concepts and principles related to the selection, evaluation, organization, and preservation of physical and digital items and collections
 ---
 

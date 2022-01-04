@@ -1,11 +1,11 @@
-import React, { useState, setState } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import Bio from "../components/bio"
 import DegreePicture from "../components/degreepicture"
-import IO from "../components/io"
 import Layout from "../components/layout"
+import IO from "../components/io"
 import SEO from "../components/seo"
 
 const Post = styled.li`
@@ -88,14 +88,16 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___pagination], order: ASC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: ASC }
+      limit: 1000
+    ) {
       nodes {
         excerpt
         fields {
           slug
         }
         frontmatter {
-          pagination
           date(formatString: "MMMM DD, YYYY")
           title
           description

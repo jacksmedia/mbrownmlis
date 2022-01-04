@@ -1,7 +1,7 @@
 ---
 title: Competency 4
 pagination: 8
-date: "2021-01-01T12:24:36.480Z"
+date: "2021-03-27T12:24:36.480Z"
 description: Apply the fundamental principles of planning, management, marketing, and advocacy
 ---
 
