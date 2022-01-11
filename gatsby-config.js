@@ -16,7 +16,7 @@ module.exports = {
       },
     ],
     social: {
-      linkedin: `https://linkedin.com/in/emily-brown-9689a327/`,
+      linkedin: `https://www.linkedin.com/in/emily-brown-9689a327/`,
     },
   },
   plugins: [
