@@ -1,7 +1,7 @@
 ---
 title: About Me
 date: "2021-06-29T12:24:36.480Z"
-description: About Me, M Brown
+description: M Brown
 ---
 
 # About Me

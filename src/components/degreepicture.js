@@ -23,7 +23,7 @@ const DegreePicture = () => {
           quality={95}
           alt="My MLIS, 2015"
         />
-        <h1 className="landingpage-blogtitle glowy-text">About Me
+        <h1 className="glowy-text">About Me
         </h1>
       </div>
     </div>

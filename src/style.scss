@@ -156,9 +156,8 @@ figure {
 }
 
 .post-lede {
-  font-size: 1.3rem;
-  padding-right: 1.3rem;
-  padding-top: 1.3rem;
+  font-size: 2.45vw;
+  line-height: 2.85vw;
 }
 
 ul, ol {
@@ -208,7 +207,7 @@ ul, ol {
 }
 
 .header-img {
-  background: url(images/books_notext.png) center center fixed; 
+  background: url(images/dark-header.png) center center fixed; 
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -395,7 +394,7 @@ mark .white-text {
 
 // landing page items
 .specialtimes {
- font-size: 3.5vw; // overriden elsewhere
+ font-size: 3.5vw;
 }
 .ghost-books {
   background: url(images/books_notext.png) center center fixed;
@@ -409,9 +408,9 @@ mark .white-text {
 }
 .ghost-books-hue {
   // background: linear-gradient(180deg, snow, #EAE8B4);
-  width: 61vw;
+  width: 90%;
   background-color: rgba(255,250,250,0.9);
-  padding: 0.1rem 0.5rem 0.1rem 1.5rem;
+  padding-left: 1.5rem;
   border-radius: 0.5rem;
 }
 .is-sticky {
