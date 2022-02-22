@@ -72,7 +72,7 @@ h2, h3, h4, h5, h6 {
 
 h1 {
   font-weight: var(--fontWeight-black);
-  font-size: var(--fontSize-7);
+  font-size: var(--fontSize-6);
 }
 
 h2 { font-size: var(--fontSize-5); }
@@ -140,7 +140,7 @@ figure {
   line-height: 2rem;
   min-height: 20vh;
   border-radius: 0rem;
-  background: url(images/books_notext.png) center center fixed; 
+ // background: url(images/books_notext.png) center center fixed; 
 }
 
 .blog-post {
@@ -374,13 +374,6 @@ mark .white-text {
   color: lime;
 }
 
-// tweak for menu
-// .sezzy-slider {
-//  display: flex;
-//  flex-direction: column;
-//  justify-content: space-around;
-//}
-
 // utility
 .center-out {
   display: flex;
@@ -402,7 +395,7 @@ mark .white-text {
 
 // landing page items
 .specialtimes {
- font-size: 28px;
+ font-size: 3.5vw; // overriden elsewhere
 }
 .ghost-books {
   background: url(images/books_notext.png) center center fixed;
@@ -418,7 +411,11 @@ mark .white-text {
   // background: linear-gradient(180deg, snow, #EAE8B4);
   width: 61vw;
   background-color: rgba(255,250,250,0.9);
-  padding: 1.2rem 1rem 2rem 2rem;
-  border-radius: 2rem;
+  padding: 0.1rem 0.5rem 0.1rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.is-sticky {
+  position: sticky;
+  top: 0;
 }
 

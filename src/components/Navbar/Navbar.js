@@ -6,7 +6,8 @@ import { Link } from "gatsby"
 const TopBar = styled.nav`
   min-height: 72px;
   height: 12vh;
-  position: relative;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -4,10 +4,10 @@ import { Link } from "gatsby"
 
 const NavbarLinks = () => {
   return (
-    <ul className="sezzy-slider">
-      <NavItem to="/aboutme" className="is-hoverable">About Me</NavItem>
-      <NavItem to="/resources" className="is-hoverable">Resources</NavItem>
-      <NavItem to="/schoolwork" className="is-hoverable">Schoolwork</NavItem>
+    <ul className="">
+      <NavItem to="/aboutme" className="is-hoverable sezzy-slider">About Me</NavItem>
+      <NavItem to="/resources" className="is-hoverable sezzy-slider">Resources</NavItem>
+      <NavItem to="/schoolwork" className="is-hoverable sezzy-slider">Schoolwork</NavItem>
     </ul>
   )
 }
