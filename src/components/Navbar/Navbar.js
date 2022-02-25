@@ -6,8 +6,11 @@ import { Link } from "gatsby"
 const TopBar = styled.nav`
   min-height: 72px;
   height: 12vh;
-  position: sticky;
+  width: 100%;
+  min-width: 100%;
+  position: fixed;
   top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,15 +20,6 @@ const TopBar = styled.nav`
   padding: 0 0 0 0;
   z-index: 2;
   align-self: center;
-
-  @media (max-width: 768px) {
-    position: sticky;
-    height: 8vh;
-    top: 0;
-    left: 0;
-    right: 0;
-    left: 0;
-  }
 `
 
 const Toggle = styled.div`
