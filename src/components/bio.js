@@ -46,9 +46,10 @@ const Bio = () => {
           <h3 className="white-text">
             Written by {author.name}, {author?.summary || null}
             {` `}
-            <br/><a href="https://www.linkedin.com/in/emily-brown-9689a327/">
-              Here is my LinkedIn
-            </a>.&nbsp;Huzzah!
+            <br/>
+              <a href="https://docs.google.com/document/d/1d8ZvldGPH3H1KHxos0sgMJUQm-Kltv_OVR5h4VUhiP0/edit?usp=sharing">Here is my Resume</a>.&nbsp;
+              <a href="https://www.linkedin.com/in/emily-brown-9689a327/">Here is my LinkedIn</a>.&nbsp;
+              Huzzah!
           </h3>
         )}
       </div>
