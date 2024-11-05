@@ -19,5 +19,3 @@ Organizing things brings me happiness. I pursued a MLIS degree in order to take 
 The librarian at my high school recruited me from my free class period to assist with collection management, and I enjoyed helping her run the school library all that year.
 
 I’ve played with computers since I was a kid, and hacked a pet breeding game so that I could have the strangest virtual cats ever.
-
-[PDF of M Brown's Resume](E_Brown_resume_2021.pdf)  in case you’re already curious.
